@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block body %}
+    {% include 'header.html' %}
+    <section class="content">
+        <div class="container">
+            <h2>Зміст:</h2>
+            <h3>
+                <ol>
+                    <li><a href="#p1">Ім'я</a></li>
+                    <li><a href="#p2">Дата народження</a></li>
+                    <li><a href="#p3">Місто</a></li>
+                    <li><a href="#p4">Почта</a></li>
+                    <li><a href="#p5">Освіта</a></li>
+                    <li><a href="#p6">Маю хороші здібності в таких приедметах</a></li>
+                    <li><a href="#p7">Мої якості</a></li>
+                    <li><a href="#p8">Хоббі</a></li>
+                </ol>
+            </h3>
+        </div>
+    </section>
+    <p>
+    <h2 id="p1"><i class="fa-solid fa-file-signature"></i> Ім'я:Зайченко Михайло</h2>
+    </p>
+    <p>
+    <h2 id="p2"><i class="fa-solid fa-cake-candles"></i> Дата народження: 19.10.2006</h2>
+    </p>
+    <p>
+    <h2 id="p3"><i class="fa-solid fa-city"></i> Місто: Дніпро</h2>
+    </p>
+    <p>
+        <a href="https://mail.google.com/" target="_blank">
+            <h2 id="p4"><i class="fa-solid fa-envelope"></i> Email: michailo.zaichenko@gmail.com</h2>
+        </a>
+    </p>
+    <p>
+    <h2 id="p5"><i class="fa-solid fa-graduation-cap"></i> Освіта: КЗО 'ФЕЛ' ДМР в 10 класі</h2>
+    </p>
+    <section id="p6">
+        <p>
+        <h2>
+            <dt><i class="fa-solid fa-book"></i> Маю хороші здібності в таких приедметах:</dt>
+        </h2>
+        <dd>
+            <h3>
+                <ul>
+                    <li>Математика</li>
+                    <li>Фізика</li>
+                    <li>Українська мова</li>
+                    <li>Англійська мова</li>
+                </ul>
+            </h3>
+        </dd>
+        </p>
+    </section>
+
+    {% include 'footer.html' %}
+{% endblock %}

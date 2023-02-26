@@ -1,0 +1,53 @@
+body {
+    background-color: #EEE3CB;
+}
+
+
+ol {
+    list-style-position: inside;
+}
+
+h1,
+p {
+    font-family: 'Bungee Spice', cursive;
+    text-align: center;
+    color: #181818;
+}
+
+h2,
+p {
+    color: #411530;
+    font-family: 'Roboto Slab', serif;
+}
+h3 {
+    font-family: 'Blaka Ink', cursive;
+}
+
+ul {
+    color: #790252;
+    list-style-position: inside;
+    list-style-type: ">";
+}
+
+dt {
+    color: #4C0033;
+}
+
+img {
+    display: block;
+    width: 50%;
+    margin: 25px auto;
+
+}
+
+a {
+    color: #790252;
+    cursor: help;
+    text-decoration: none;
+}
+
+.imeg {
+    margin: 0 auto;
+    max-width: 350px;
+
+}
